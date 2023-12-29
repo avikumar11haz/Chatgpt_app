@@ -1,4 +1,4 @@
-import 'package:chatgpt_app/constants.dart';
+import 'package:chatgpt_app/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 void main() {
