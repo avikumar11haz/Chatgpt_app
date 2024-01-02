@@ -1,5 +1,6 @@
 import 'package:chatgpt_app/constants/constants.dart';
 import 'package:chatgpt_app/services/assets_manager.dart';
+import 'package:chatgpt_app/widgets/chat_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 
@@ -54,7 +55,7 @@ class _ChatScreenState extends State<ChatScreen> {
               child: ListView.builder(
                   itemCount: 6,
                   itemBuilder: (context, index) {
-                    return const Text("Hello this is a text");
+                    return const ChatWidget();
                   }),
             ),
             if (_isTyping) ...[
